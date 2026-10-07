@@ -92,5 +92,5 @@ Constants: `Function.MUSIC`, `Function.UFDISK`;
 - `get_file_name()` decodes the module's UTF-16LE reply manually (MicroPython has no such codec).
 - `switch_function()` blocks for ~1.5 s while the module reconfigures.
 - `del_cur_file()` permanently deletes the file from the module.
-- The driver was written from the Arduino source and the AT protocol and has not been tested on hardware;
+- The driver was written by AI from the Arduino source and the AT protocol and has not been tested on hardware;
   adjust timeouts if your module is slow to answer.
