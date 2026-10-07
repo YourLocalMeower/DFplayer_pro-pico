@@ -1,5 +1,7 @@
 # dfplayer_pro – MicroPython driver for DFPlayer Pro (DF1201S)
 
+## !!THIS WAS MADE USING AI!!
+
 MicroPython port of the Arduino library [DFRobot_DF1201S](https://github.com/DFRobot/DFRobot_DF1201S),
 tuned for the Raspberry Pi Pico (RP2040). It talks to the module over UART using the AT protocol
 (115200 baud, 8N1, commands end with `\r\n`). Only built-in modules (`machine`, `time`) are used.
